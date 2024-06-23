@@ -1,0 +1,15 @@
+{
+  "originHash" : "b76b0893e39813b5485c6856e39ea3f97648cea2972647c16609ed644585d910",
+  "pins" : [
+    {
+      "identity" : "volumebuttonhandler",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JuniperPhoton/VolumeButtonHandler",
+      "state" : {
+        "revision" : "13e1a68a06077ff55cfe4f4da7fe43f2e114a2fe",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
