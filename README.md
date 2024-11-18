@@ -6,6 +6,10 @@ On iOS 17.2 or above, it uses ``AVCaptureEventInteraction`` otherwise it uses th
 
 > When using ``AVCaptureEventInteraction`` on iOS 17.2, the events will be triggered only if the camera session is running.
 
+NOTE:
+
+> There is a [new API](https://developer.apple.com/documentation/SwiftUI/View/onCameraCaptureEvent(isEnabled:primaryAction:secondaryAction:)) on iOS 18. Prefer to use that API on iOS 18 or above.
+
 ## Usage
 
 Using `CaptureEventInteraction` is straightforward:
