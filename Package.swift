@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CaptureEventInteraction",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -15,7 +15,7 @@ let package = Package(
             targets: ["CaptureEventInteraction"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/JuniperPhoton/VolumeButtonHandler", from: "1.0.2"),
+        .package(url: "https://github.com/JuniperPhoton/VolumeButtonHandler", from: "1.0.3"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.4.3")
     ],
     targets: [

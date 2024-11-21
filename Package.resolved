@@ -1,5 +1,5 @@
 {
-  "originHash" : "d5cf0fc213520a97c7299850fa238e50a0ff8739e15a1b9e0386fba731e7db0a",
+  "originHash" : "812d178b8d8d168e349e4d6d583ecd77f132031a0d8a8b4d6a0d37e081197e76",
   "pins" : [
     {
       "identity" : "swift-docc-plugin",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JuniperPhoton/VolumeButtonHandler",
       "state" : {
-        "revision" : "13e1a68a06077ff55cfe4f4da7fe43f2e114a2fe",
-        "version" : "1.0.2"
+        "revision" : "698bbc11b325ced56c1a94037f2302ed3763b07b",
+        "version" : "1.0.3"
       }
     }
   ],
