@@ -12,10 +12,10 @@ import VolumeButtonHandler
 
 /// A class to manage the press events of the Volume Up and Volume Down buttons.
 ///
-/// On iOS 17.2 or above, it uses ``AVCaptureEventInteraction`` otherwise it uses the external framework of VolumeButtonHandler
+/// On iOS 17.2 or above, it uses `AVCaptureEventInteraction` otherwise it uses the external framework of VolumeButtonHandler
 /// to handle the event.
 ///
-/// When using ``AVCaptureEventInteraction`` on iOS 17.2, the events will be triggered only if the camera session is running.
+/// When using `AVCaptureEventInteraction` on iOS 17.2, the events will be triggered only if the camera session is running.
 public class CaptureEventInteraction {
     public var onVolumeUpTriggered: (() -> Void)? = nil
     public var onVolumeDownTriggered: (() -> Void)? = nil

@@ -15,7 +15,8 @@ let package = Package(
             targets: ["CaptureEventInteraction"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/JuniperPhoton/VolumeButtonHandler", from: "1.0.2")
+        .package(url: "https://github.com/JuniperPhoton/VolumeButtonHandler", from: "1.0.2"),
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.4.3")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
